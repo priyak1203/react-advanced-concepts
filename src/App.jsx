@@ -2,6 +2,7 @@ import ErrorExample from './tutorial/01-useState/01-error-example';
 import UseStateBasics from './tutorial/01-useState/02-useState-basics';
 import UseStateArray from './tutorial/01-useState/03-useState-array';
 import UseStateObject from './tutorial/01-useState/04-useState-object';
+import UseStateGotcha from './tutorial/01-useState/05-useState-gotcha';
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       {/* <ErrorExample /> */}
       {/* <UseStateBasics /> */}
       {/* <UseStateArray /> */}
-      <UseStateObject />
+      {/* <UseStateObject /> */}
+      <UseStateGotcha />
     </div>
   );
 }
