@@ -11,6 +11,14 @@ const MultipleReturnsFetchData = () => {
     const fetchUser = async () => {
       try {
         const respsonse = await fetch(url);
+
+        // fix for fetch error "gotcha"
+        if (!respsonse.ok) {
+          setIsError(true);
+          setIsLoading(false);
+          return;
+        }
+
         const user = await respsonse.json();
         setUser(user);
       } catch (error) {
