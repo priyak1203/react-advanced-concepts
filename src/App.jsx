@@ -11,6 +11,7 @@ import MultipleReturnsBasics from './tutorial/03-conditional-rendering/01-multip
 import MultipleReturnsFetchData from './tutorial/03-conditional-rendering/02-multiple-returns-fetch-data';
 import HooksRule from './tutorial/03-conditional-rendering/03-hooks-rule';
 import ShortCircuitOverview from './tutorial/03-conditional-rendering/04-short-circuit-overview';
+import ShortCircuitExamples from './tutorial/03-conditional-rendering/05-short-circuit-examples';
 
 function App() {
   return (
@@ -28,7 +29,8 @@ function App() {
       {/* <MultipleReturnsBasics /> */}
       {/* <MultipleReturnsFetchData /> */}
       {/* <HooksRule /> */}
-      <ShortCircuitOverview />
+      {/* <ShortCircuitOverview /> */}
+      <ShortCircuitExamples />
     </div>
   );
 }
