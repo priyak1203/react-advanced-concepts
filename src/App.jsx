@@ -10,6 +10,7 @@ import FetchData from './tutorial/02-useEffect/04-fetch-data';
 import MultipleReturnsBasics from './tutorial/03-conditional-rendering/01-multiple-returns-basics';
 import MultipleReturnsFetchData from './tutorial/03-conditional-rendering/02-multiple-returns-fetch-data';
 import HooksRule from './tutorial/03-conditional-rendering/03-hooks-rule';
+import ShortCircuitOverview from './tutorial/03-conditional-rendering/04-short-circuit-overview';
 
 function App() {
   return (
@@ -26,7 +27,8 @@ function App() {
       {/* <FetchData /> */}
       {/* <MultipleReturnsBasics /> */}
       {/* <MultipleReturnsFetchData /> */}
-      <HooksRule />
+      {/* <HooksRule /> */}
+      <ShortCircuitOverview />
     </div>
   );
 }
