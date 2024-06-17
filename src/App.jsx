@@ -7,6 +7,7 @@ import CodeExample from './tutorial/02-useEffect/01-code-example';
 import UseEffectBasics from './tutorial/02-useEffect/02-useEffect-basics';
 import MultipleEffects from './tutorial/02-useEffect/03-multiple-effects';
 import FetchData from './tutorial/02-useEffect/04-fetch-data';
+import CleanupFunction from './tutorial/02-useEffect/05-cleanup-function';
 import MultipleReturnsBasics from './tutorial/03-conditional-rendering/01-multiple-returns-basics';
 import MultipleReturnsFetchData from './tutorial/03-conditional-rendering/02-multiple-returns-fetch-data';
 import HooksRule from './tutorial/03-conditional-rendering/03-hooks-rule';
@@ -34,7 +35,8 @@ function App() {
       {/* <ShortCircuitOverview /> */}
       {/* <ShortCircuitExamples /> */}
       {/* <ToggleChallenge /> */}
-      <UserChallenge />
+      {/* <UserChallenge /> */}
+      <CleanupFunction />
     </div>
   );
 }
