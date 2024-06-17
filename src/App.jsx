@@ -13,6 +13,7 @@ import HooksRule from './tutorial/03-conditional-rendering/03-hooks-rule';
 import ShortCircuitOverview from './tutorial/03-conditional-rendering/04-short-circuit-overview';
 import ShortCircuitExamples from './tutorial/03-conditional-rendering/05-short-circuit-examples';
 import ToggleChallenge from './tutorial/03-conditional-rendering/06-toggle-challenge';
+import UserChallenge from './tutorial/03-conditional-rendering/07-user-challenge';
 
 function App() {
   return (
@@ -32,7 +33,8 @@ function App() {
       {/* <HooksRule /> */}
       {/* <ShortCircuitOverview /> */}
       {/* <ShortCircuitExamples /> */}
-      <ToggleChallenge />
+      {/* <ToggleChallenge /> */}
+      <UserChallenge />
     </div>
   );
 }
