@@ -16,6 +16,7 @@ import ShortCircuitOverview from './tutorial/03-conditional-rendering/04-short-c
 import ShortCircuitExamples from './tutorial/03-conditional-rendering/05-short-circuit-examples';
 import ToggleChallenge from './tutorial/03-conditional-rendering/06-toggle-challenge';
 import UserChallenge from './tutorial/03-conditional-rendering/07-user-challenge';
+import Example from './tutorial/04-project-structure/Example';
 import Navbar from './tutorial/04-project-structure/Navbar';
 import { AboutPage, HomePage } from './tutorial/04-project-structure/Pages';
 
@@ -42,8 +43,9 @@ function App() {
       {/* <CleanupFunction /> */}
       {/* <CleanupEventExample /> */}
       {/* <Navbar /> */}
-      <HomePage />
-      <AboutPage />
+      {/* <HomePage />
+      <AboutPage /> */}
+      <Example />
     </div>
   );
 }
