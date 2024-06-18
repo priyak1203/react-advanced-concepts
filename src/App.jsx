@@ -16,6 +16,7 @@ import ShortCircuitOverview from './tutorial/03-conditional-rendering/04-short-c
 import ShortCircuitExamples from './tutorial/03-conditional-rendering/05-short-circuit-examples';
 import ToggleChallenge from './tutorial/03-conditional-rendering/06-toggle-challenge';
 import UserChallenge from './tutorial/03-conditional-rendering/07-user-challenge';
+import Navbar from './tutorial/04-project-structure/Navbar';
 
 function App() {
   return (
@@ -38,7 +39,8 @@ function App() {
       {/* <ToggleChallenge /> */}
       {/* <UserChallenge /> */}
       {/* <CleanupFunction /> */}
-      <CleanupEventExample />
+      {/* <CleanupEventExample /> */}
+      <Navbar />
     </div>
   );
 }
