@@ -19,6 +19,7 @@ import UserChallenge from './tutorial/03-conditional-rendering/07-user-challenge
 import Example from './tutorial/04-project-structure/Example';
 import Navbar from './tutorial/04-project-structure/Navbar';
 import { AboutPage, HomePage } from './tutorial/04-project-structure/Pages';
+import List from './tutorial/05-leverage-javascript/List';
 
 function App() {
   return (
@@ -45,7 +46,8 @@ function App() {
       {/* <Navbar /> */}
       {/* <HomePage />
       <AboutPage /> */}
-      <Example />
+      {/* <Example /> */}
+      <List />
     </div>
   );
 }
