@@ -22,6 +22,7 @@ import { AboutPage, HomePage } from './tutorial/04-project-structure/Pages';
 import List from './tutorial/05-leverage-javascript/List';
 import ControlledInputs from './tutorial/06-forms/01-controlled-inputs';
 import UserChallengeForms from './tutorial/06-forms/02-user-challenge';
+import MultipleInputs from './tutorial/06-forms/03-multiple-inputs';
 
 function App() {
   return (
@@ -51,7 +52,8 @@ function App() {
       {/* <Example /> */}
       {/* <List /> */}
       {/* <ControlledInputs /> */}
-      <UserChallengeForms />
+      {/* <UserChallengeForms /> */}
+      <MultipleInputs />
     </div>
   );
 }
