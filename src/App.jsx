@@ -21,6 +21,7 @@ import Navbar from './tutorial/04-project-structure/Navbar';
 import { AboutPage, HomePage } from './tutorial/04-project-structure/Pages';
 import List from './tutorial/05-leverage-javascript/List';
 import ControlledInputs from './tutorial/06-forms/01-controlled-inputs';
+import UserChallengeForms from './tutorial/06-forms/02-user-challenge';
 
 function App() {
   return (
@@ -49,7 +50,8 @@ function App() {
       <AboutPage /> */}
       {/* <Example /> */}
       {/* <List /> */}
-      <ControlledInputs />
+      {/* <ControlledInputs /> */}
+      <UserChallengeForms />
     </div>
   );
 }
