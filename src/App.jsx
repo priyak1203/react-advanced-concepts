@@ -25,6 +25,7 @@ import UserChallengeForms from './tutorial/06-forms/02-user-challenge';
 import MultipleInputs from './tutorial/06-forms/03-multiple-inputs';
 import OtherInputs from './tutorial/06-forms/04-other-input';
 import UncontrolledInputs from './tutorial/06-forms/05-form-data';
+import UseRefBasics from './tutorial/07-useRef/01-useRef-basics';
 
 function App() {
   return (
@@ -57,7 +58,8 @@ function App() {
       {/* <UserChallengeForms /> */}
       {/* <MultipleInputs /> */}
       {/* <OtherInputs /> */}
-      <UncontrolledInputs />
+      {/* <UncontrolledInputs /> */}
+      <UseRefBasics />
     </div>
   );
 }
