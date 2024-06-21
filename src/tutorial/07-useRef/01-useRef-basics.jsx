@@ -4,11 +4,28 @@ const UseRefBasics = () => {
   const [value, setValue] = useState(0);
 
   const refContainer = useRef(null);
-  console.log(refContainer);
+  const isMounted = useRef(false);
+
+  //   console.log(refContainer);
+  //   console.log(isMounted);
+
+  //   useEffect(() => {
+  //     console.log(refContainer);
+  //   });
 
   useEffect(() => {
-    console.log(refContainer);
-  });
+    // avoids running on initial render
+    if (!isMounted.current) {
+      isMounted.current = true;
+      return;
+    }
+    console.log('re-render');
+  }, [value]);
+
+  // setting the focus on input on initial render
+  useEffect(() => {
+    refContainer.current.focus();
+  }, []);
 
   const handleSubmit = (e) => {
     e.preventDefault();
