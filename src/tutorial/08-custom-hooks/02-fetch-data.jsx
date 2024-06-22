@@ -1,32 +1,9 @@
-import { useEffect, useState } from 'react';
+import useFetchPerson from './useFetchPerson';
 
 const url = 'https://api.github.com/users/QuincyLarson';
 
 const FetchDataHook = () => {
-  const [isLoading, setIsLoading] = useState(true);
-  const [isError, setIsError] = useState(false);
-  const [user, setUser] = useState(null);
-
-  useEffect(() => {
-    const fetchUser = async () => {
-      try {
-        const resp = await fetch(url);
-        if (!resp.ok) {
-          setIsError(true);
-          setIsLoading(false);
-          return;
-        }
-
-        const user = await resp.json();
-        setUser(user);
-      } catch (error) {
-        setIsError(true);
-      }
-      setIsLoading(false);
-    };
-
-    fetchUser();
-  }, []);
+  const { isLoading, isError, user } = useFetchPerson(url);
 
   if (isLoading) {
     return <h2>loading...</h2>;
