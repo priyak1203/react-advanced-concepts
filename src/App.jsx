@@ -27,6 +27,7 @@ import OtherInputs from './tutorial/06-forms/04-other-input';
 import UncontrolledInputs from './tutorial/06-forms/05-form-data';
 import UseRefBasics from './tutorial/07-useRef/01-useRef-basics';
 import ToggleExample from './tutorial/08-custom-hooks/01-toggle';
+import FetchDataHook from './tutorial/08-custom-hooks/02-fetch-data';
 
 function App() {
   return (
@@ -61,7 +62,8 @@ function App() {
       {/* <OtherInputs /> */}
       {/* <UncontrolledInputs /> */}
       {/* <UseRefBasics /> */}
-      <ToggleExample />
+      {/* <ToggleExample /> */}
+      <FetchDataHook />
     </div>
   );
 }
