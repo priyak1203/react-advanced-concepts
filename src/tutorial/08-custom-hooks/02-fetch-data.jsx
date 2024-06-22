@@ -1,9 +1,9 @@
-import useFetchPerson from './useFetchPerson';
+import useFetchData from './useFetch';
 
 const url = 'https://api.github.com/users/QuincyLarson';
 
 const FetchDataHook = () => {
-  const { isLoading, isError, user } = useFetchPerson(url);
+  const { isLoading, isError, data: user } = useFetchData(url);
 
   if (isLoading) {
     return <h2>loading...</h2>;
