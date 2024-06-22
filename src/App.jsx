@@ -26,6 +26,7 @@ import MultipleInputs from './tutorial/06-forms/03-multiple-inputs';
 import OtherInputs from './tutorial/06-forms/04-other-input';
 import UncontrolledInputs from './tutorial/06-forms/05-form-data';
 import UseRefBasics from './tutorial/07-useRef/01-useRef-basics';
+import ToggleExample from './tutorial/08-custom-hooks/01-toggle';
 
 function App() {
   return (
@@ -59,7 +60,8 @@ function App() {
       {/* <MultipleInputs /> */}
       {/* <OtherInputs /> */}
       {/* <UncontrolledInputs /> */}
-      <UseRefBasics />
+      {/* <UseRefBasics /> */}
+      <ToggleExample />
     </div>
   );
 }
