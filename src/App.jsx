@@ -28,6 +28,7 @@ import UncontrolledInputs from './tutorial/06-forms/05-form-data';
 import UseRefBasics from './tutorial/07-useRef/01-useRef-basics';
 import ToggleExample from './tutorial/08-custom-hooks/01-toggle';
 import FetchDataHook from './tutorial/08-custom-hooks/02-fetch-data';
+import NavbarContextAPI from './tutorial/09-context-api/context/Navbar';
 import NavbarPropDrilling from './tutorial/09-context-api/prop-drilling/Navbar';
 
 function App() {
@@ -65,7 +66,8 @@ function App() {
       {/* <UseRefBasics /> */}
       {/* <ToggleExample /> */}
       {/* <FetchDataHook /> */}
-      <NavbarPropDrilling />
+      {/* <NavbarPropDrilling /> */}
+      <NavbarContextAPI />
     </div>
   );
 }
