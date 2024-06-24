@@ -29,11 +29,12 @@ import UseRefBasics from './tutorial/07-useRef/01-useRef-basics';
 import ToggleExample from './tutorial/08-custom-hooks/01-toggle';
 import FetchDataHook from './tutorial/08-custom-hooks/02-fetch-data';
 import NavbarContextAPI from './tutorial/09-context-api/context/Navbar';
+import GlobalContext from './tutorial/09-context-api/global-context/GlobalContext';
 import NavbarPropDrilling from './tutorial/09-context-api/prop-drilling/Navbar';
 
 function App() {
   return (
-    <div>
+    <div className="container">
       {/* <h2>react advanced concepts</h2> */}
       {/* <ErrorExample /> */}
       {/* <UseStateBasics /> */}
@@ -67,7 +68,8 @@ function App() {
       {/* <ToggleExample /> */}
       {/* <FetchDataHook /> */}
       {/* <NavbarPropDrilling /> */}
-      <NavbarContextAPI />
+      {/* <NavbarContextAPI /> */}
+      <GlobalContext />
     </div>
   );
 }
