@@ -23,8 +23,6 @@ const ReducerBasics = () => {
     dispatch({ type: RESET_LIST });
   };
 
-  console.log(state);
-
   return (
     <div>
       {state.people.map((person) => {

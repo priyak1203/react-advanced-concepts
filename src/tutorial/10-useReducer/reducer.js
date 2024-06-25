@@ -2,23 +2,25 @@ import { data } from '../../data';
 import { CLEAR_LIST, REMOVE_ITEM, RESET_LIST } from './actions';
 
 const reducer = (state, action) => {
-  if (action.type === CLEAR_LIST) {
-    return { ...state, people: [] };
-  }
+  switch (action.type) {
+    case CLEAR_LIST: {
+      return { ...state, people: [] };
+    }
 
-  if (action.type === RESET_LIST) {
-    return { ...state, people: data };
-  }
+    case RESET_LIST: {
+      return { ...state, people: data };
+    }
 
-  if (action.type === REMOVE_ITEM) {
-    const newPeople = state.people.filter(
-      (person) => person.id !== action.payload.id
-    );
-    return { ...state, people: newPeople };
-  }
+    case REMOVE_ITEM: {
+      const newPeople = state.people.filter(
+        (person) => person.id !== action.payload.id
+      );
+      return { ...state, people: newPeople };
+    }
 
-  //   return state;
-  throw new Error(`No matching "${action.type}" - action type`);
+    default:
+      throw new Error(`No matching "${action.type}" - action type`);
+  }
 };
 
 export default reducer;
