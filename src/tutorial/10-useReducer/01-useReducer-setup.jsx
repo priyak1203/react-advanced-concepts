@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { data } from '../../data';
 
-const ReducerBasics = () => {
+const ReducerBasicsSetup = () => {
   const [people, setPeople] = useState(data);
 
   const removeItem = (id) => {
@@ -53,9 +53,4 @@ const ReducerBasics = () => {
   );
 };
 
-export default ReducerBasics;
-
-//  { (
-//     <button className="btn" onClick={resetList}>
-//       reset
-//     </button> : }
+export default ReducerBasicsSetup;
