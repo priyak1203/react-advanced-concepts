@@ -32,6 +32,7 @@ import NavbarContextAPI from './tutorial/09-context-api/context/Navbar';
 import GlobalContext from './tutorial/09-context-api/global-context/GlobalContext';
 import NavbarPropDrilling from './tutorial/09-context-api/prop-drilling/Navbar';
 import ReducerBasicsSetup from './tutorial/10-useReducer/01-useReducer-setup';
+import ReducerBasics from './tutorial/10-useReducer/02-useReducer';
 
 function App() {
   return (
@@ -71,7 +72,8 @@ function App() {
       {/* <NavbarPropDrilling /> */}
       {/* <NavbarContextAPI /> */}
       {/* <GlobalContext /> */}
-      <ReducerBasicsSetup />
+      {/* <ReducerBasicsSetup /> */}
+      <ReducerBasics />
     </div>
   );
 }
