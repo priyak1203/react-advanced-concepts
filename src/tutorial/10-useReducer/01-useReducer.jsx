@@ -19,35 +19,43 @@ const ReducerBasics = () => {
 
   return (
     <div>
+      {people.map((person) => {
+        const { id, name } = person;
+        return (
+          <div key={id}>
+            <h4>{name}</h4>
+            <button type="button" onClick={() => removeItem(id)}>
+              remove
+            </button>
+          </div>
+        );
+      })}
       {people?.length < 1 ? (
-        <button className="btn" onClick={resetList}>
+        <button
+          type="button"
+          className="btn"
+          style={{ marginTop: '2rem' }}
+          onClick={resetList}
+        >
           reset
         </button>
       ) : (
-        <div>
-          {people.map((person) => {
-            const { id, name } = person;
-            return (
-              <div key={id}>
-                <h4>{name}</h4>
-                <button type="button" onClick={() => removeItem(id)}>
-                  remove
-                </button>
-              </div>
-            );
-          })}
-          <button
-            type="button"
-            className="btn"
-            style={{ marginTop: '2rem' }}
-            onClick={clearAllItems}
-          >
-            clear items
-          </button>
-        </div>
+        <button
+          type="button"
+          className="btn"
+          style={{ marginTop: '2rem' }}
+          onClick={clearAllItems}
+        >
+          clear items
+        </button>
       )}
     </div>
   );
 };
 
 export default ReducerBasics;
+
+//  { (
+//     <button className="btn" onClick={resetList}>
+//       reset
+//     </button> : }
