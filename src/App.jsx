@@ -34,6 +34,7 @@ import NavbarPropDrilling from './tutorial/09-context-api/prop-drilling/Navbar';
 import ReducerBasicsSetup from './tutorial/10-useReducer/01-useReducer-setup';
 import ReducerBasics from './tutorial/10-useReducer/02-useReducer';
 import LowerState from './tutorial/11-performance/01-lower-state';
+import LowerStateChallenge from './tutorial/11-performance/02-lower-state-challenge';
 
 function App() {
   return (
@@ -75,7 +76,8 @@ function App() {
       {/* <GlobalContext /> */}
       {/* <ReducerBasicsSetup /> */}
       {/* <ReducerBasics /> */}
-      <LowerState />
+      {/* <LowerState /> */}
+      <LowerStateChallenge />
     </div>
   );
 }
