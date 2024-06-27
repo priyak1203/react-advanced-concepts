@@ -35,6 +35,7 @@ import ReducerBasicsSetup from './tutorial/10-useReducer/01-useReducer-setup';
 import ReducerBasics from './tutorial/10-useReducer/02-useReducer';
 import LowerState from './tutorial/11-performance/01-lower-state';
 import LowerStateChallenge from './tutorial/11-performance/02-lower-state-challenge';
+import ReactMemo from './tutorial/11-performance/03-hooks';
 
 function App() {
   return (
@@ -77,7 +78,8 @@ function App() {
       {/* <ReducerBasicsSetup /> */}
       {/* <ReducerBasics /> */}
       {/* <LowerState /> */}
-      <LowerStateChallenge />
+      {/* <LowerStateChallenge /> */}
+      <ReactMemo />
     </div>
   );
 }
