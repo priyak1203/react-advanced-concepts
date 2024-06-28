@@ -38,6 +38,7 @@ import LowerStateChallenge from './tutorial/11-performance/02-lower-state-challe
 import ReactMemo from './tutorial/11-performance/03-react-memo';
 import ReactUseCallback from './tutorial/11-performance/04-useCallback';
 import ReactUseMemo from './tutorial/11-performance/05-useMemo';
+import ReactUseTransition from './tutorial/11-performance/06-useTransition';
 
 function App() {
   return (
@@ -83,7 +84,8 @@ function App() {
       {/* <LowerStateChallenge /> */}
       {/* <ReactMemo /> */}
       {/* <ReactUseCallback /> */}
-      <ReactUseMemo />
+      {/* <ReactUseMemo /> */}
+      <ReactUseTransition />
     </div>
   );
 }
