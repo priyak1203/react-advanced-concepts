@@ -39,6 +39,7 @@ import ReactMemo from './tutorial/11-performance/03-react-memo';
 import ReactUseCallback from './tutorial/11-performance/04-useCallback';
 import ReactUseMemo from './tutorial/11-performance/05-useMemo';
 import ReactUseTransition from './tutorial/11-performance/06-useTransition';
+import ReactSuspenseLazy from './tutorial/11-performance/07-suspense-lazy';
 
 function App() {
   return (
@@ -85,7 +86,8 @@ function App() {
       {/* <ReactMemo /> */}
       {/* <ReactUseCallback /> */}
       {/* <ReactUseMemo /> */}
-      <ReactUseTransition />
+      {/* <ReactUseTransition /> */}
+      <ReactSuspenseLazy />
     </div>
   );
 }
